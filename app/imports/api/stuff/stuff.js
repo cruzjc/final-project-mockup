@@ -10,7 +10,7 @@ export const Stuff = new Mongo.Collection('Stuff');
  */
 export const StuffSchema = new SimpleSchema({
   name: {
-    label: 'Name',
+    label: 'Event name',
     type: String,
     optional: false,
     max: 20,
@@ -20,7 +20,7 @@ export const StuffSchema = new SimpleSchema({
     },
   },
   quantity: {
-    label: 'Quantity',
+    label: 'time',
     type: Number,
     optional: false,
     autoform: {

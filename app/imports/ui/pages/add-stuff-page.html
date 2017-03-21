@@ -1,4 +1,9 @@
 <template name="Add_Stuff_Page">
+  <p>users enter event information here</p>
+  <p>can be reused to edit information</p>
+  <p>information can be stored locally, or retrieved from server, then pushed onto google</p>
+  <p>information may be redundant being stored on google and on mongo but can serve as cross reference help</p>
+  <p>will need to figure out a better way for multiple users/ organizations event management. (maybe through the use of generated ids to associate events with one another organizations)</p>
   {{#If_Logged_In}}
     <div style="padding-top: 20px" class="ui text container">
       {{> quickForm
